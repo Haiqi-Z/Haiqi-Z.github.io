@@ -1,0 +1,72 @@
+@font-face{
+	font-family: riot;
+	src: url(../fonts/Protest_Riot/riot.ttf);
+}
+
+body{
+	background-color: #D8F3EC;
+}
+
+
+h1{
+	color: #43BC9C;
+	text-shadow: 3px 3px #fff;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+
+#all{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cup{
+	border: solid 0px black;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: baseline;
+	align-items: center;
+}
+
+p{
+	text-align: center;
+	color: #43BC9C;
+	font-size: 14pt;
+	width: 200px;
+}
+
+h2{
+	color: #68CAB0;
+	text-shadow: 1px 1px #fff;
+}
+
+#mart{
+	fill: #9bab59;
+	width: 200px;
+}
+
+#iris{
+	fill: #D8F3EC;
+	width: 200px;
+	stroke: #bf7d37;
+	stroke-width: 10px;
+}
+
+#marg{
+	fill: #d9d26e;
+	width: 200px;
+}
+
+#high{
+	fill: #f62708;
+	width: 200px;
+}
+
+#whisk{
+	stroke: #f6b013;
+	fill: #D8F3EC;
+	width: 200px;
+	stroke-width: 6px;
+}

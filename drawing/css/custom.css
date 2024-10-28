@@ -1,0 +1,68 @@
+@font-face{
+	font-family: rowdies;
+	src: url(../fonts/Rowdies/Rowdies.ttf);
+}
+
+@font-face{
+	font-family: lobster;
+	src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+body{
+	background: url(../images/bg2.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#name{
+	text-decoration : none;
+	text-align: right;
+	color: floralwhite;
+	font-family: lobster;
+}
+
+h1{
+	margin-top: 35%;
+
+	font-family: rowdies;
+	text-align: center;
+	color: ghostwhite;
+	text-shadow: #969CDC 3px 3px;
+}
+
+ul{
+	border: solid 0px black;
+	margin-top: 50px;
+
+	list-style: none;
+	font-family: lobster;
+	font-size: 14pt;
+	color: floralwhite;
+	text-shadow: #969CDC 2px 2px;
+	
+	display: flex;
+	justify-content: space-evenly;
+}
+
+ul a:link{
+	text-decoration : none;
+}
+
+ul a:hover{
+    background-color : white;
+    color : #969CDC;
+}
+
+ul a:visited{
+    color : antiquewhite;
+}
+
+ul a:focus{
+    background-color : white;
+    color : #7079CF;
+}
+
+ul a:active{
+    background-color : white;
+    color : #BBB2E6;
+}
