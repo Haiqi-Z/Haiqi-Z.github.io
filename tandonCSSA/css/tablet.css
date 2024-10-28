@@ -1,0 +1,154 @@
+@font-face{
+	font-family: carter;
+	src: url(../fonts/Carter_One/CarterOne-Regular.ttf);
+}
+
+@font-face{
+	font-family: PT;
+	src: url(../fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+.mgBtm{
+	margin-bottom: 5px;
+}
+
+.container-fluid{
+	width: 100vw;
+}
+
+
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.navbar{
+	background-color: #5d4f82;
+}
+
+.carousel-item img{
+	height: 80vh;
+	width: 100vw;
+}
+
+#navbarSupportedContent{
+	border: solid 0px black;
+	font-size: 18pt;
+}
+
+#movingCSSA{
+	font-size: 28pt;
+	font-family: carter;
+	color: #5d4f82;
+}
+
+.navbar-nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.otherItem{
+	font-family: PT;
+	color: #5d4f82;;
+}
+
+#language{
+	border: solid 0px black;
+	margin-right: 0px;
+}
+
+.btn-outline{
+	background-color: #5d4f82;
+	color: white;
+}
+
+#wrap{
+	position: relative;
+}
+
+#intro{
+	border: solid 0px whitesmoke;
+	width: 60vw;
+
+	position: absolute;
+	top: 180px;
+	left: 90px;
+	z-index: 5;
+
+	font-size: 12px;
+
+	color: white;
+}
+
+#intro h3{
+	display: none;
+	padding: 0px;
+}
+
+#intro p{
+	padding: 0px;
+}
+
+#intro h3 small{
+	color: #d2d4d6;
+}
+
+.display-1{
+	color: #5d4f82;
+	font-size: 20pt;
+}
+
+#eventSection p{
+	font-size: 14pt;
+	text-align: center;
+}
+
+.display-5{
+	color: whitesmoke;
+	text-align: center;
+}
+
+.eventPic{
+	height: 60vh;
+}
+
+#keyEvent{
+	display: flex;
+	justify-content: center;
+}
+
+.qrcode{
+	border: solid 0px black;
+}
+
+.socialM, #contact{
+	background-color: #5d4f82;
+}
+
+.placeholder{
+	color: #5d4f82;
+	display: none;
+}
+
+.pdTop{
+	padding-top: 20px;
+}
+
+#sponsor{
+	max-width: 100vw;
+}
+
+.contactInfo{
+	text-align: center;
+	color: whitesmoke;
+	font-size: 14pt;
+	font-style: bold;
+	font-family: PT;
+}
+
+#contact h1{
+	color: whitesmoke;
+}

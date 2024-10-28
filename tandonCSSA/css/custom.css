@@ -1,0 +1,133 @@
+@font-face{
+	font-family: carter;
+	src: url(../fonts/Carter_One/CarterOne-Regular.ttf);
+}
+
+@font-face{
+	font-family: PT;
+	src: url(../fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+.mgBtm{
+	margin-bottom: 10px;
+}
+
+.container-fluid{
+	width: 100vw;
+}
+
+
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.navbar{
+	background-color: #5d4f82;
+}
+
+.carousel-item img{
+	height: 900px;
+	width: 100vw;
+}
+
+#navbarSupportedContent{
+	border: solid 0px black;
+	font-size: 18pt;
+}
+
+#movingCSSA{
+	font-size: 28pt;
+	font-family: carter;
+	color: #5d4f82;
+}
+
+.navbar-nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.otherItem{
+	font-family: PT;
+	color: #5d4f82;;
+}
+
+#language{
+	border: solid 0px black;
+	margin-right: 0px;
+}
+
+.btn-outline{
+	background-color: #5d4f82;
+	color: white;
+}
+
+#wrap{
+	position: relative;
+}
+
+#intro{
+	border: solid 2px whitesmoke;
+	width: 25vw;
+
+	position: absolute;
+	top: 390px;
+	left: 200px;
+	z-index: 5;
+
+	color: white;
+}
+
+#intro h3, #intro p{
+	padding: 10px;
+}
+
+#intro h3 small{
+	color: #d2d4d6;
+}
+
+.display-1{
+	color: #5d4f82;
+}
+
+.display-5{
+	color: whitesmoke;
+}
+
+.eventPic{
+	height: 27vh;
+}
+
+.qrcode{
+	border: solid 0px black;
+}
+
+.socialM, #contact{
+	background-color: #5d4f82;
+}
+
+.placeholder{
+	color: #5d4f82;
+}
+
+.pdTop{
+	padding-top: 20px;
+}
+
+#sponsor{
+	max-width: 100vw;
+}
+
+.contactInfo{
+	color: whitesmoke;
+	font-size: 18pt;
+	font-style: bold;
+	font-family: PT;
+}
+
+#contact h1{
+	color: whitesmoke;
+}
