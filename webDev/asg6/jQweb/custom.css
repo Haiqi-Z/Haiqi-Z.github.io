@@ -1,0 +1,184 @@
+@font-face{
+    font-family: PT;
+    src: url(../../../tandonCSSA/fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family : FredokaOne-Regular;
+    src : url(../../../personal/font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family : Pacifico-Regular;
+    src : url(../../../personal/font/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family : Indie;
+    src : url(../../asg5/fonts/indie.ttf);
+}
+
+.addSpace{
+    margin-bottom : 40px;
+    margin-top : 40px;
+}
+
+h1{
+    font-family: FredokaOne-Regular;
+    text-align: center;
+    color: #008626;
+    text-decoration: underline;
+    text-shadow: whitesmoke 3px 3px;
+    font-size: 48pt;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+body{
+    background: url(sms2.png) no-repeat; 
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    /*padding : 10px;*/
+}
+
+nav{
+    
+}
+
+nav ul{
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+
+    border: solid 0px black;
+    display : flex;
+    justify-content: space-evenly;
+
+    font-family : FredokaOne-Regular;
+    font-size : 20pt;
+    color : #008626;
+    text-shadow: whitesmoke 2px 2px;
+}
+
+nav ul a:link{
+    border: solid 0px black;
+    flex-grow : 1;
+    padding : 30px;
+
+    text-align : center;
+    text-decoration : none; /* remove underline*/
+    color : #008626;
+    text-shadow: whitesmoke 2px 2px;
+}
+
+nav ul a:hover{
+    background-color : #B2E1E6;
+    color : #008626;
+    text-shadow: whitesmoke 2px 2px;
+}
+
+nav ul a:visited{
+    color : #008626;
+    text-shadow: whitesmoke 2px 2px;
+}
+
+nav ul a:focus{
+    background-color : #AEBEEE;
+    color : #008626;
+    text-shadow: whitesmoke 2px 2px;
+}
+
+nav ul a:active{
+    background-color : #AEBEEE;
+    color : #008626;
+    text-decoration : underline;
+    text-shadow: whitesmoke 2px 2px;
+}
+
+nav ul a li{
+    border: solid 0px black;
+}
+
+#about{
+    text-shadow: black 1px 1px;
+    color : black;
+    font-family: Indie;
+
+    background-color: #bae8c7;
+
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+}
+
+
+.image{
+    width: 30%;
+    height: 40%;
+
+    margin-left: 35%;
+    margin-bottom: 5%;
+    border: solid 4px whitesmoke;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-family: FredokaOne-Regular;
+    color: whitesmoke;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+#animate{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8D8FD8;
+
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#socialMedia{
+    border : solid 0px black;
+    margin-top: 10%;
+    display : flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#socialMedia img{
+    width : 40px;
+    height : 40px;
+    margin : 10px;
+}

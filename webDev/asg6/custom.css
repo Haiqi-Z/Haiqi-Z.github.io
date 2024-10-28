@@ -1,0 +1,181 @@
+@font-face{
+    font-family: PT;
+    src: url(../../tandonCSSA/fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family : FredokaOne-Regular;
+    src : url(../../personal/font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family : Pacifico-Regular;
+    src : url(../../personal/font/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family : Indie;
+    src : url(../asg5/fonts/indie.ttf);
+}
+
+.addSpace{
+    margin-bottom : 40px;
+    margin-top : 40px;
+}
+
+.smallSpace{
+    margin-bottom : 10px;
+    margin-top : 10px;
+}
+
+h1{
+    font-family: FredokaOne-Regular;
+    text-align: center;
+    color: #43B0BC;
+    text-decoration: underline;
+}
+
+body{
+    background-color : #D8F0F3; 
+    padding : 10px;
+}
+
+nav{
+    
+}
+
+nav ul{
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+
+    border: solid 0px black;
+    display : flex;
+    justify-content: space-evenly;
+
+    font-family : FredokaOne-Regular;
+    font-size : 14pt;
+    color : #68C1CA;
+}
+
+nav ul a:link{
+    border: solid 0px black;
+    flex-grow : 1;
+    padding : 30px;
+
+    text-align : center;
+    text-decoration : none; /* remove underline*/
+    color : #68C1CA;
+}
+
+nav ul a:hover{
+    background-color : #B2E1E6;
+    color : white;
+}
+
+nav ul a:visited{
+    color : #43B0BC;
+}
+
+nav ul a:focus{
+    background-color : #AEBEEE;
+    color : #4CB5ED;
+}
+
+nav ul a:active{
+    background-color : #AEBEEE;
+    color : white;
+    text-decoration : underline;
+}
+
+nav ul a li{
+    border: solid 0px black;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#italian, #highlight, #japanese{
+    border: solid 0px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#italian img, #highlight img, #japanese img{
+    width: 60%;
+    height: 21%;
+}
+
+#japanese img{
+    margin-top: 10%;
+}
+
+#japanese h3{
+    margin-top: 15%;
+}
+
+#italian p, #highlight p, #japanese p{
+    width: 200px;
+    font-family: PT;
+}
+
+.location{
+    font-family: Indie;
+    font-size: 15pt;
+}
+
+h3{
+    font-family: FredokaOne-Regular;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#animate{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8D8FD8;
+
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+#demo{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#socialMedia{
+    border : solid 0px black;
+    display : flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#socialMedia img{
+    width : 40px;
+    height : 40px;
+    margin : 10px;
+    color: #43B0BC;
+}

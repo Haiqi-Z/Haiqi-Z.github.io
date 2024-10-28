@@ -1,0 +1,243 @@
+@font-face{
+    font-family: PT;
+    src: url(../../tandonCSSA/fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family : FredokaOne-Regular;
+    src : url(../../personal/font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family : Pacifico-Regular;
+    src : url(../../personal/font/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family : Indie;
+    src : url(fonts/indie.ttf);
+}
+
+.addSpace{
+    margin-bottom : 40px;
+    margin-top : 40px;
+}
+
+.smSpace{
+    margin-bottom: 5px;
+}
+
+h1{
+    font-family: FredokaOne-Regular;
+    text-align: center;
+    color: #43B0BC;
+    text-decoration: underline;
+}
+
+body{
+    background-color : #D8F0F3; 
+    padding : 10px;
+}
+
+nav{
+    
+}
+
+nav ul{
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+
+    border: solid 0px black;
+    display : flex;
+    justify-content: space-evenly;
+
+    font-family : FredokaOne-Regular;
+    font-size : 14pt;
+    color : #68C1CA;
+}
+
+nav ul a:link{
+    border: solid 0px black;
+    flex-grow : 1;
+    padding : 30px;
+
+    text-align : center;
+    text-decoration : none; /* remove underline*/
+    color : #68C1CA;
+}
+
+nav ul a:hover{
+    background-color : #B2E1E6;
+    color : white;
+}
+
+nav ul a:visited{
+    color : #43B0BC;
+}
+
+nav ul a:focus{
+    background-color : #AEBEEE;
+    color : #4CB5ED;
+}
+
+nav ul a:active{
+    background-color : #AEBEEE;
+    color : white;
+    text-decoration : underline;
+}
+
+nav ul a li{
+    border: solid 0px black;
+}
+
+.intro{
+    text-align: center;
+    font-family: PT;
+    font-weight: bold;
+}
+
+#eggP,#shrimp{
+    border: solid 0px black;
+    
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+/*.flavor{
+    margin-right: 5%;
+}*/
+
+.q{
+    display: flex;
+    align-items: center;
+}
+
+#eggQuant, #shrimpQuant, #subEgg, #subS{
+    margin-left: 5%;
+}
+
+img{
+    width: 15%;
+    height: 30%;
+}
+
+input{
+    height: 5%;
+}
+
+#info{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#shipping{
+    display: flex;
+}
+
+#calcTotal{
+    border: solid 0px black;
+    width: 20%;
+    margin-left: 67%;
+    margin-right: 13%;
+}
+
+#test{
+    border: solid 0px green;
+    margin-bottom: 0%;
+}
+
+#tot{
+    text-align: left;
+}
+
+.receipt{
+    font-family: Indie;
+}
+
+#rcpt{
+    background-color: #97DEDD;
+}
+
+.btn{   
+    text-align: center;
+    font-family: PT;
+    font-size: 12pt;
+    text-shadow: 2px 2px white;
+}
+
+#button1{
+    margin-left: 10%;
+}
+
+#socialMedia{
+    border : solid 0px black;
+    display : flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#socialMedia img{
+    width : 40px;
+    height : 40px;
+    margin : 10px;
+    color: #43B0BC;
+}
+
+h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*The following codes are for index.html page only*/
+#icon{
+    height: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu, #link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*The following codes are for newNode.html page only*/
+#nodeChange{
+    width: 20%;
+    height: 20%;
+    margin-left:40%;
+    margin-right:40%;
+    
+    text-align: center;
+    font-family: PT;
+    font-size: 14pt;
+    text-shadow: 2px 2px white;
+}
+
+h2{
+    border: solid 1px white;
+    background-color: #68C1CA;
+    color: white;
+
+    text-align: center;
+}
+
+.new{
+    font-family: Indie;
+    background-color: #624FC3;
+    font-weight: bold;
+}

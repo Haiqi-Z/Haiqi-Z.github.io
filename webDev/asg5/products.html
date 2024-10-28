@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Web Development Class Work Demonstration </title>
+    <link rel="StyleSheet" href="custom.css"/>
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="../css/mobile.css"/>
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="../css/tablet.css"/>
+  </head>
+  <body>
+      <h1 class="addSpace">Assignment 5: Shopping Cart</h1>
+      <nav class="addSpace"> 
+          <ul> 
+            <li> 
+              <a href="../index.html">
+                Home
+              </a>
+            </li>
+            <li> 
+              <a href="../asg2/index.html">
+                Homework 2
+              </a>
+            </li>
+            <li> 
+              <a href="../asg3/index.html">
+                Homework 3
+              </a>
+            </li>
+            <li> 
+              <a href="../asg4/index.html">
+                Homework 4
+              </a>
+            </li>
+            <li> 
+              <a href="index.html">
+                Homework 5
+              </a>
+            </li>
+            <li>
+              <a href="../../index.html">
+                Previous Work
+              </a>
+            </li>
+            <li>
+              <a href="../contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <p class="intro">
+        Enter the quantity for each item, then the subtotal and total will be displayed. Enter 0 when you do not want the item.
+      </p>
+      <div id="eggP" class="addSpace">
+        <h5 class="flavor">Egg Pork Rice Roll $4</h5>
+        <div class="q">
+          <h5>Quantity: </h5>
+          <input type="number" id="eggQuant" name="eggQuant" min=0>
+        </div>
+        <img src="images/eggPork.png">
+        <div class="q">
+          <h5 class="q">Subtotal: </h5>
+          <textarea id="subEgg" name="subEgg" rows=1></textarea>
+        </div>
+      </div>
+      <div id="shrimp" class="addSpace">
+        <h5 class="flavor">Shrimp Rice Roll $5</h5>
+        <div class="q">
+          <h5>Quantity: </h5>
+        <input type="number" id="shrimpQuant" name="shrimpQuant" min=0>
+        </div>
+        <img src="images/shrimp.jpeg">
+        <div class="q">
+          <h5>Subtotal: </h5>
+          <textarea id="subS" name="subS" rows=1></textarea>
+        </div>
+      </div>
+      <div id="calcTotal">
+        <h5>Shipping Method</h5>
+        <form id="shipping">
+          <input type="radio" id="pickUp" value="pickUp" name="ship">
+          <label for="pickUp">pick up in store</label>
+          <input type="radio" id="delivery" value="delivery" name="ship">
+          <label for="delivery">1-hour delivery</label>
+        </form>
+        <h5 id="test">Your shipping fee: </h5>
+        <textarea id="shipPrice" rows=1></textarea>
+        <br>
+        <br>
+        <h4 id="tot">Your Total: </h4>
+        <textarea id="total" rows=1></textarea>
+      </div>
+      <p class="intro">
+        Enter your name, email, address, and payment infomation below. Then click the 'Place the Order' button to view your receipt!
+      </p>
+      <form id="info">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="Name" class="smSpace">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" class="smSpace">
+        <br>
+        <label for="street">Street: </label>
+        <input type="text" id="street" name="Street" class="smSpace">
+        <br>
+        <label for="city">City: </label>
+        <input type="text" id="city" name="City" class="smSpace">
+        <br>
+        <label for="zipcode">Zipcode: </label>
+        <input type="number" id="zipcode" name="Zipcode" class="smSpace">
+        <br>
+        <br>
+        <label>Credit Card Type: </label>
+        <br>
+        <input type="radio" id="visa" name="Credit Card Type" class="smSpace" value="Visa">
+        <label for="visa">Visa</label>
+        <input type="radio" id="mastercard" name="Credit Card Type" class="smSpace" value="Mastercard">
+        <label for="mastercard">Mastercard</label>
+        <input type="radio" id="amex" name="Credit Card Type" class="smSpace" value="AMEX">
+        <label for="amex">AMEX</label>
+        <br>
+        <br>
+        <label for="cardNumber">Credit Card Number: </label>
+        <input type="number" id="cardNumber" name="Card Number" class="smSpace">
+        <br>
+        <input class="addSpace btn" id="button1" type=submit value="Submit">
+        <input type=reset class="btn">
+      </form>
+      <footer class="addSpace">
+        <section id="socialMedia">
+          <a href="https://www.facebook.com/haiqi.zeng/"><img src="../../personal/images/meta.svg"/></a>
+
+          <a href="https://www.instagram.com/zinc.helium.ph7/"><img src="../../personal/images/instagram.svg"/></a>
+
+          <a href="https://www.linkedin.com/in/haiqi-zeng-467976190/"><img src="../../personal/images/linkedin.svg"/></a>
+        </section>
+        <h4>© 2023 Haiqi Zeng</h4>
+      </footer>
+      <script src="asg5cart.js" ></script>
+  </body>
+</html>
