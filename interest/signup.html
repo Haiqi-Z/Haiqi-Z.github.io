@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css"/>
+	<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css"/-->
+	<link rel="stylesheet" href="css/custom.css" type="text/css"/>
+	<title>Sign up/Log in</title>
+	<style>
+		h5{
+			padding: 0px;
+			margin-top: 20px;
+			text-align: center;
+			color: white;
+			margin-bottom: 0px;
+		}
+		#info{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		label{
+			color: white;
+		}
+		#toDo{
+			color: #2E5A86;
+			text-decoration: underline;
+			margin-top: 0px;
+			padding-top: 0px;
+		}
+		header h1{
+			margin-top:0px;
+			margin-bottom: 0px;
+			font-size: 36px;
+			text-align: center;
+		}
+		input[type=text]{
+			margin-bottom: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1>Save trips to your notebook by creating an account!</h1>
+		</header>
+		<h5>Already have an account?</h5>
+		<h5 id="toDo">Log in</h5>
+		<form id="info">
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email">
+			<br/>
+			<label for="userName">User name:</label>
+			<input type="text" id="userName" name="userName">
+			<label for="password">Password:</label>
+			<input type="text" id="password" name="password">
+			<!--input type="checkbox" id="subscription" name="subscription"-->
+			<input type="submit" value="Submit">
+			<!--label for="subscription"> I would like to receive emails about latest trip plans via email</label-->
+		    <h6>By creating an account, you agree to our Terms of Services</h6>
+		    <h6 id="terms">Terms of Service</h6>
+		</form>
+		<br/>
+	</div>
+</body>
+</html>
