@@ -1,0 +1,150 @@
+@font-face{
+    font-family: PT;
+    src: url(../../tandonCSSA/fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family : FredokaOne-Regular;
+    src : url(../../personal/font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family : Pacifico-Regular;
+    src : url(../../personal/font/Pacifico-Regular.ttf);
+}
+
+.addSpace{
+    margin-bottom : 40px;
+    margin-top : 40px;
+}
+
+h1{
+    font-family: FredokaOne-Regular;
+    text-align: center;
+    color: #43B0BC;
+    text-decoration: underline;
+}
+
+body{
+    background-color : #D8F0F3; 
+    padding : 10px;
+}
+
+nav{
+    
+}
+
+nav ul{
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+
+    border: solid 0px black;
+    display : flex;
+    justify-content: space-evenly;
+
+    font-family : FredokaOne-Regular;
+    font-size : 14pt;
+    color : #68C1CA;
+}
+
+nav ul a:link{
+    border: solid 0px black;
+    flex-grow : 1;
+    padding : 30px;
+
+    text-align : center;
+    text-decoration : none; /* remove underline*/
+    color : #68C1CA;
+}
+
+nav ul a:hover{
+    background-color : #B2E1E6;
+    color : white;
+}
+
+nav ul a:visited{
+    color : #43B0BC;
+}
+
+nav ul a:focus{
+    background-color : #AEBEEE;
+    color : #4CB5ED;
+}
+
+nav ul a:active{
+    background-color : #AEBEEE;
+    color : white;
+    text-decoration : underline;
+}
+
+nav ul a li{
+    border: solid 0px black;
+}
+
+img{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 50%;
+}
+
+input{
+    width: 40%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: 1%;
+}
+
+#button1{
+    width: 30%;
+    height: 20%;
+    margin-left:35%;
+    margin-right:35%;
+    
+    text-align: center;
+    font-family: Pacifico-Regular;
+    font-size: 15pt;
+    color:#8b2dfc;
+    text-shadow: 2px 2px white;
+
+    border-radius: 50%;
+}
+
+textarea{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    font-family: Pacifico-Regular;
+    text-align: center;
+    color: #D8F0F3;
+    text-shadow: 2px 2px #46A1EC;
+    font-size: 22pt;
+}
+
+#socialMedia{
+    border : solid 0px black;
+    display : flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#socialMedia img{
+    width : 40px;
+    height : 40px;
+    margin : 10px;
+    color: #43B0BC;
+}
+
+h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#zodiacImg{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}

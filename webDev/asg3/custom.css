@@ -1,0 +1,160 @@
+@font-face{
+    font-family: PT;
+    src: url(../../tandonCSSA/fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family : FredokaOne-Regular;
+    src : url(../../personal/font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family : Pacifico-Regular;
+    src : url(../../personal/font/Pacifico-Regular.ttf);
+}
+
+.addSpace{
+    margin-bottom : 40px;
+    margin-top : 40px;
+}
+
+h1{
+    font-family: FredokaOne-Regular;
+    text-align: center;
+    color: #43B0BC;
+    text-decoration: underline;
+}
+
+body{
+    background-color : #D8F0F3; 
+    padding : 10px;
+}
+
+nav{
+    
+}
+
+nav ul{
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+
+    border: solid 0px black;
+    display : flex;
+    justify-content: space-evenly;
+
+    font-family : FredokaOne-Regular;
+    font-size : 14pt;
+    color : #68C1CA;
+}
+
+nav ul a:link{
+    border: solid 0px black;
+    flex-grow : 1;
+    padding : 30px;
+
+    text-align : center;
+    text-decoration : none; /* remove underline*/
+    color : #68C1CA;
+}
+
+nav ul a:hover{
+    background-color : #B2E1E6;
+    color : white;
+}
+
+nav ul a:visited{
+    color : #43B0BC;
+}
+
+nav ul a:focus{
+    background-color : #AEBEEE;
+    color : #4CB5ED;
+}
+
+nav ul a:active{
+    background-color : #AEBEEE;
+    color : white;
+    text-decoration : underline;
+}
+
+nav ul a li{
+    border: solid 0px black;
+}
+
+#button1{
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-left: 40%;
+}
+
+/*#intro{
+    border: solid 0px black;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    font-size: 9pt;
+    font-family: PT;
+    text-align: center;
+    color: #68C3CA;
+}*/
+
+#img{
+    width: 30%;
+    margin-left: 35%;
+    margin-left: 35%;
+}
+
+#img1{
+    width: 50%;
+    margin-left: 25%;
+    margin-left: 25%;
+}
+
+#buttonGroup{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#socialMedia{
+    border : solid 0px black;
+    display : flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#socialMedia img{
+    width : 40px;
+    height : 40px;
+    margin : 10px;
+    color: #43B0BC;
+}
+
+/* The following codes are for the prize display page:*/
+
+h2{
+    font-family: Pacifico-Regular;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+#lunch{
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#back{
+    font-family: FredokaOne-Regular;
+    width: 12%;
+    margin-left: 44%;
+    margin-right: 44%;
+}
