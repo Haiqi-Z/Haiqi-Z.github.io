@@ -1,0 +1,660 @@
+@font-face {
+    font-family : Forum;
+    src : url(../font/Forum/Forum-Regular.ttf);
+}
+
+@font-face {
+    font-family : Gabriela;
+    src : url(../font/Gabriela/Gabriela-Regular.ttf);
+}
+
+@font-face {
+    font-family : IMF;
+    src : url(../font/IMF/IMFellEnglish-Regular.ttf);
+}
+
+@font-face {
+    font-family : Inter;
+    src : url(../font/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family : Fredericka;
+    src : url(../font/Fredericka/Fredericka-Regular.ttf);
+}
+
+@font-face{
+    font-family: Gaegu;
+    src: url(../font/Gaegu/Gaegu-Regular.ttf);
+}
+
+h1{
+    font-size: 64px;
+    font-family: IMF;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+h4{
+    font-size: 32px;
+}
+
+h5{
+    font-size: 30px;
+}
+
+#cloth{
+    position : fixed;
+    top : 0px;
+    left : 0px;
+    z-index : 10;
+    width : 100vw;
+    height : 100vh;
+    background : #446FAB;
+    color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#notebook_box{
+    position: absolute;
+    z-index: 8;
+    background-color: #2E5A86;
+    color: floralwhite;
+    top: 40%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+
+    display: none;
+}
+
+#notebook_box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#notebook_box ul li a:visited{
+    color: floralwhite;
+}
+
+#notebook_box i:hover{
+    cursor: pointer;
+}
+
+#notebook:hover{
+    cursor: pointer;
+}
+
+#sleeve{
+    width: 64px;
+    height: 192px;
+    background: white;
+
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    z-index: 5;
+}
+
+#cookie{
+    border: solid 1px black;
+    position: fixed;
+    top: 82.5%;
+    z-index: 5;
+    width: 99%;
+
+    background-color: whitesmoke;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cookie i{
+    font-size: 36px;
+}
+
+#cookie i:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #2E5A86;
+}
+
+header{
+    height: 192px;
+    background-color: #2E5A86;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#search {
+    position: relative;
+}
+
+#search input{
+    width: 100%;
+    height: 50px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+#snButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    paddling: 0 auto;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+}
+
+#search input{
+    width: 384px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav img{
+    width: 25px;
+    height: 25px;
+}
+
+#signup{
+    border: solid 1px black;
+    background-color: #2E5A86;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Gabriela;
+    
+    width: 128px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+#signup a:visited{
+    color: white;
+}
+
+#notebook{
+    border: solid 1px black;
+    background-color: white;
+    color: #2E5A86;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Gabriela;
+    text-decoration: underline;
+
+    width: 128px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h6{
+    font-size: 20px;
+}
+
+/*nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    display: none;
+}
+
+nav ul li{
+    border: solid 0px black;
+
+    height: 64px;
+    background-color: #86ABD6;
+    color: #EDEEF7;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    font-family: Inter;
+    font-size: 24px;
+}
+*/
+
+nav{
+    /*width: 100%;
+    border: solid 1px black;*/
+}
+
+nav ul{
+    width: 100%;
+    border: solid 0px white;
+    padding : 0px;
+    margin : 0px;
+
+    display: flex;
+    text-align: center;
+    list-style : none;
+    font-family: Gabriela;
+}
+
+nav ul a:link{
+    border: solid 0px yellow;
+
+    text-decoration : none;
+    flex-grow : 1;
+}
+
+nav ul a:visited{
+    color : white;
+}
+
+nav ul a li{
+    border: solid 0px white;
+    background-color: #94B5C7;
+    font-size: 36px;
+    /*flex-grow: 1;*/
+}
+
+#content{
+    background-color: #A0BCB0;
+}
+
+#wrap{
+    margin: 0 auto;
+    padding: 25px;
+    border: solid 1px white;
+}
+
+body{
+    background-color: #86ABD6;
+}
+
+#hero{
+    /*display: flex;*/
+    position: relative;
+}
+
+#hero img{
+    width: 100%;
+    height: 576px;
+}
+
+#heroRead{
+    width: 448px;
+    height: 576px;
+    background : rgba(255,255,255,.5);
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+
+    color: white;
+
+    border: solid 0px yellow;
+}
+
+#readButton{
+    width: 192px;
+    height: 64px;
+    background-color: #2E5A86;
+    border: solid 0px red;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#readButton a:link{
+    text-decoration : none;
+    color: white;
+}
+
+#readButton a:visited{
+    color: white;
+}
+
+#call{
+    border: solid 0px green;
+
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#call h2{
+    font-family: Fredericka;
+    width: 70%;
+    /*-webkit-text-stroke: 1px #ABC5E3;*/
+}
+
+#leading{
+    background-color: white;
+}
+
+.heading{
+    border: solid 0px black;
+    height: 192px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1{
+    font-style: italic;
+    color: #2E5A86;
+}
+
+.desc{
+    border: solid 0px green;
+    /*padding-left: 64px;
+    /*padding-right: 64px;*/
+    height: 192px;
+
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.descBoxReverse{
+    padding-right: 64px;
+
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+
+.descBox, .descBoxReverse{
+    border: solid 0px green;
+    padding-left: 64px;
+    /*padding-right: 64px;*/
+    width: 100%;
+
+    display: flex;
+}
+
+.blueBox{
+    background-color: #ABC5E3;
+    border: solid 0px red;
+
+    width: 320px;
+    height: 192px;
+
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector{
+    border: solid 0px blue;
+    margin-left: 352px;
+    width: 70%;
+    
+    display: flex;
+    /*justify-content: center;*/
+    /*padding-left: 320px;*/
+}
+
+
+.vectorReverse{
+    border: solid 0px blue;
+    margin-left: 80px;
+    width: 50%;
+
+    display: flex;
+}
+
+#tripPage{
+    background-color: white;
+}
+
+
+#tripPage .heading{
+    border: solid 0px red;
+    color: #2E5A86;
+    font-size: 64px;
+    font-family: IMF;
+
+    display: flex;
+    align-items: center;
+}
+
+#tripPage img{
+    border: solid 0px green;
+    width: 320px;
+    height: 448px;
+}
+
+#tripOne, #tripTwo, #tripThree{
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 64px;
+
+    display: flex;
+}
+
+#tripTwo{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#tripThree{
+    margin-bottom: 0px;
+}
+
+.tripDesc{
+    border: solid 0px green;
+    margin-left: 64px;
+    width: 100%;
+    background-color: #EDEEF7;
+
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+#tripTwo .tripDesc{
+    margin-left: 0px;
+    margin-right: 64px;
+}
+
+.tripDesc ul li{
+    font-size: 32px;
+    margin-left: 64px;
+}
+
+
+#tripOne .tripDesc ul li{
+    font-size: 32px;
+    margin-left: 64px;
+}
+
+.tripDesc h2{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tripDesc h4{
+    text-decoration: underline;
+    border: solid 0px green;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#tripOne .tripDesc h4{
+    margin-left: 60px;
+}
+
+#tripThree .tripDesc h4{
+    margin-left: 60px;
+}
+
+#tripTwo .tripDesc h4{
+    margin-left: 60px;
+}
+
+#fullList{
+    font-size: 48px;
+    font-family: IMF;
+    text-decoration: underline;
+    color: #2E5A86;
+
+    height: 192px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h1{
+    -webkit-text-stroke: 0.001px white;
+    color: #2E5A86;
+}
+
+.contactInfo{
+    border: solid 0px red;
+    padding-left: 64px;
+    display: flex;
+}
+
+.contactInfo h3{
+    margin: 24px;
+    color: white;
+}
+
+.contactInfo img{
+    background-color: white;
+    height: 40px;
+    /*display: flex;*/
+    margin-top: 24px;
+}
+
+#contact h2{
+    font-family: IMF;
+    -webkit-text-stroke: 0.001px white;
+    color: #2E5A86;
+    margin-left: 64px;
+}
+
+#subsBox{
+    border: solid 0px red;
+    margin: 64px;
+    width: 704px;
+    height: 64px;
+}
+
+form{
+    display: flex;
+}
+
+input[type=text]{
+    border: solid 0px green;
+    width: 64%;
+    height: 64px;
+}
+
+input[type=submit]{
+    margin-left: 64px;
+    width: 192px;
+    font-family: IMF;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*The following are the css for about page*/
+blockquote{
+                height: 128px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                color: black;
+                background-color: white;
+                font-family: Gabriela;
+                font-size: 36px;
+            }
+
+#bg{
+    width: 100%;
+}
+
+#mission{
+    font-family: Gaegu;
+}
+
+#mission p{
+    font-size: 32px;
+}
+
+.socialM{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialM img{
+    background-color: white;
+    width: 64px;
+    height: 64px;
+}
+
+/*The following are for signup page*/
+h6{
+    font-size: 20px;
+    font-family: Gabriela;
+
+    margin-bottom: 0px;
+}
+#terms{
+    color: white;
+    text-decoration: underline;
+}
+/*#agreement{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}*/
