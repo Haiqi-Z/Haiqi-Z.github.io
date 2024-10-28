@@ -1,0 +1,38 @@
+@font-face {
+  font-family: sigmar;
+  src: url(fonts/Sigmar/Sigmar-Regular.ttf);
+}
+
+@font-face {
+  font-family: kalam;
+  src: url(fonts/Kalam/Kalam-Regular.ttf);
+}
+
+#ttl{
+  font-family: sigmar;
+  color: floralwhite;
+  text-align: center;
+}
+
+body{
+  background-color: #3a8c87;
+}
+
+nav ul{
+  list-style: none;
+  font-family: kalam;
+  font-size: 20px;
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li a:visited{
+  color: white;
+}
