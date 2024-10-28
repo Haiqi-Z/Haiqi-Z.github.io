@@ -1,0 +1,72 @@
+<div id="container">
+    <video src="3.mp4" type="media/mp4" autoplay playsinline loop muted id="gif">
+    </video>
+</div>
+
+@media only screen and (prefers-color-scheme: dark){
+  #gif{
+  	opacity: 0.3;
+  }
+}
+
+The CSS property transform-style: preserve-3d; is used to specify how nested elements should be rendered in a 3D space when transformed using CSS transform property. When applied to a parent element, it ensures that any child elements with 3D transformations will preserve their 3D positioning relative to the parent, creating a true 3D effect.
+
+In simpler terms, it allows nested elements to maintain their 3D positioning within a 3D space, rather than flattening them into a 2D plane. This is particularly useful for creating complex 3D layouts and animations on web pages.
+
+displayHeight = () => body.style.height = window.innerHeight + "px";
+It sets the height of the <body> element in the HTML document to the height of the browser window (window.innerHeight), ensuring that the body element fills the entire vertical space of the browser viewport. It adjusts the height of the <body> element to match the height of the browser window, effectively ensuring that the content fills the entire vertical space of the viewport.
+
+function coordinates(event){
+	let xPos = event.clientX;
+	let yPos = event.clientY;
+
+	setFilter(xPos,yPos);
+}
+This function takes an event object as its parameter, likely representing a mouse event.
+window.addEventListener("pointermove",coordinates);
+
+body.style.backgroundColor = `hsl(${hue}, 100%, ${lightness}%)`;
+leftP.style.transform = `rotateX(45deg) rotateY(${rotationY}deg) translateZ(5px)`;
+
+let pageDimensions = body.getBoundingClientRect();
+let scrollPercentageV = Math.abs(pageDimensions.top) / (pageDimensions.height - window.innerHeight); 
+let scrollPercentageH = Math.abs(pageDimensions.left) / (pageDimensions.width - window.innerWidth); 
+right = left + width
+bottom = top + height
+
+
+line-height: 200px; /* vertical centering of text */
+
+/* right */
+.face:nth-child(2) {
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: orange;
+}
+
+.petal {
+    clip-path: path("M75,0S-.3,56.48,0,100c.62,90.5,75,100,75,100,0,0,74.38-9.5,75-100C150.3,56.48,75,0,75,0Z");
+}
+
+/* transition: background-color 500ms ease-in, transform 500ms ease-out 0.4s;  multiple transitions in one line */
+
+transform: rotate3d(0.5, 1, .75, 45deg); /*the proportion of the three axises value matters rather than the absolute values */
+This transformation rotates the element around an axis defined by the vector (0.5, 1, 0.75) in 3D space by an angle of 45 degrees. The vector determines the direction of the rotation axis, and the angle specifies the amount of rotation.
+
+If the angle is positive (e.g., rotate3d(0.5, 1, 0.75, 45deg);), the rotation will be counterclockwise when viewed from a positive axis direction.
+If the angle is negative (e.g., rotate3d(0.5, 1, 0.75, -45deg);), the rotation will be clockwise when viewed from a positive axis direction.
+
+* {margin: 0;}
+
+color.forEach(funcName);  another way to loop through the list
+colors.forEach((color) => console.log(color));
+
+for (let i = 0;i < squares.length; i++)
+{
+	squares[i].style.opacity = '0.6';  //making all squares semitransparent
+}
+event.target.style.opacity = "1.0"; //keep selected square opaque
+
+@keyframes offset{
+  from {stroke-dashoffset: 575;}
+  to {stroke-dashoffset: 0;}
+}
