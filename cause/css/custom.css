@@ -1,0 +1,71 @@
+@font-face{
+	font-family: foldit;
+	src: url(../fonts/Foldit/Foldit.ttf);
+}
+
+#name{
+	font-family: foldit;
+	font-weight: bold;
+	color: #b5bd35;
+	font-size: 36pt;
+}
+
+.nav-link{
+	font-size: 18pt;
+}
+
+.carousel-item{
+	height: 100vh;
+}
+
+#cobalt_1, #copper_1{
+	height: 100vh;
+}
+
+.marginBottom{
+	margin-bottom: 30px;
+}
+
+.cardSize{
+	height: 200px;
+}
+
+.lead{
+	color: #b5bd35;
+}
+
+#socialM{
+	font-size: 50pt;
+}
+
+i{
+	color: #412413;
+}
+
+i:hover{
+	color: #b5bd35;
+	cursor: pointer;
+}
+
+footer{
+	height: 40vh;
+	background-color: #b5bd35;
+}
+
+#donatePic{
+	width: 45vw;
+	margin-left: 10px;
+}
+
+blockquote p{
+	font-size: 14pt;
+}
+
+.learnPic{
+	height: 100vh;
+}
+
+.lithiumIMG{
+	min-width: 100vw;
+	height: 100vh;
+}
