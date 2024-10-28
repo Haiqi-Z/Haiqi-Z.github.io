@@ -1,0 +1,145 @@
+@font-face {
+    font-family : Mynerve-Regular;
+    src : url(../font/Mynerve-Regular.ttf);
+}
+
+@font-face {
+    font-family : FredokaOne-Regular;
+    src : url(../font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family : Pacifico-Regular;
+    src : url(../font/Pacifico-Regular.ttf);
+}
+
+body{
+    background-color : #DCEDEC; 
+    padding : 200px;
+}
+
+#wrap{
+    border : solid 1px #3D4085;
+    width : 1024px;
+    margin : 0 auto /*center the box*/
+}
+
+header{
+    height : 150px;
+    background-color : #4394C0;
+    padding : 50px;
+    font-size : 52pt;
+    font-family : FredokaOne-Regular;
+    color : white;
+    text-align : center;
+}
+
+nav{
+    
+}
+
+nav ul{
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+
+    border: solid 0px black;
+    display : flex;
+}
+
+nav ul a:link{
+    border: solid 0px black;
+    flex-grow : 1;
+    padding : 30px;
+    text-align : center;
+
+    color : #3675B8;
+    text-decoration : none; /* remove underline*/
+    text-transform : uppercase;
+    
+    font-family : FredokaOne-Regular;
+    font-weight : bold;
+    font-size : 14pt;
+
+
+}
+
+nav ul a:hover{
+    background-color : #C6D6F7;
+    color : white;
+}
+
+nav ul a:visited{
+    color : #99BFEE;
+}
+
+nav ul a:focus{
+    background-color : #AEBEEE;
+    color : #4CB5ED;
+}
+
+nav ul a:active{
+    background-color : #AEBEEE;
+    color : white;
+    text-decoration : underline;
+}
+
+nav ul a li{
+    border: solid 0px black;
+}
+
+
+
+.addSpace{
+    margin-bottom : 60px;
+    margin-top : 60px;
+}
+
+#mainArea{
+    border : solid 0px black;
+
+    display : flex;
+}
+
+#mainArea section h1,
+#mainArea section p,
+#mainArea section blockquote{
+    padding-left : 30px;
+    padding-right : 30px;
+    font-family : Mynerve-Regular;
+}
+
+#mainArea section blockquote{
+    background-color : #B1D4EF;
+    padding : 30px;
+    border-radius : 10px;
+    font-weight : bold;
+    font-family : Pacifico-Regular;
+    color : white;
+}
+
+footer{
+    border: solid 0px black;
+    display : flex;
+}
+
+footer section{
+
+    min-width : 50%;
+    max-width : 50%;
+}
+
+
+#socialMedia{
+    border : solid 0px black;
+    display : flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#socialMedia img{
+    width : 40px;
+    height : 40px;
+    margin : 10px;
+}
+
