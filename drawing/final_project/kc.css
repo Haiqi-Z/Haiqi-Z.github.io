@@ -1,0 +1,65 @@
+body{
+	background: url(img/kc1.jpg) no-repeat;
+	background-size: cover;
+}
+
+#container{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns:repeat(30, 1fr);
+	grid-template-rows:repeat(10, 1fr);
+}
+
+#ball{
+	width: 100%;
+	grid-row: 7 / 9;
+	grid-column: 15 / 18;
+	border: solid 0px black;
+	stroke: orange;
+	fill: white;
+	stroke-width: 3px;
+}
+
+#left{
+	width: 100%;
+	grid-row: 9 / 10;
+	grid-column: 9 / 11;
+	fill: #CA2430;
+	border: solid 0px black;
+	animation-name: run;
+	animation-duration: 2s;
+	transition-timing-function: linear;
+}
+
+@keyframes run {
+	0% {transform: translate(-300px,10px);}
+	100% {transform: translate(0px,0px);}
+}
+
+#right{
+	width: 100%;
+	grid-row: 9 / 10;
+	grid-column: 26 / 28;
+	fill: #FFB612;
+	border: solid 0rpx black;
+}
+
+canvas{
+	display: none;
+}
+
+@media only screen and (max-width: 480px) {
+	#ball{
+		grid-row: 7 / 8;
+		grid-column: 16 / 17;
+	}
+	#left{
+		grid-row: 8 / 10;
+		grid-column: 7 / 11;
+	}
+	#right{
+		grid-row: 8 / 10;
+		grid-column: 24 / 28;
+	}
+}
