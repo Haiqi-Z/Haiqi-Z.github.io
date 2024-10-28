@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Web Development Class Work Demonstration </title>
+    <link rel="StyleSheet" href="custom.css"/>
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="../css/mobile.css"/>
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="../css/tablet.css"/>
+  </head>
+  <body>
+      <h1 class="addSpace">Assignment 7: Online Store</h1>
+      <nav class="addSpace"> 
+          <ul> 
+            <li> 
+              <a href="../index.html">
+                Home
+              </a>
+            </li>
+            <li> 
+              <a href="../asg2/index.html">
+                Homework 2
+              </a>
+            </li>
+            <li> 
+              <a href="../asg3/index.html">
+                Homework 3
+              </a>
+            </li>
+            <li> 
+              <a href="../asg4/index.html">
+                Homework 4
+              </a>
+            </li>
+            <li> 
+              <a href="../asg5/index.html">
+                Homework 5
+              </a>
+            </li>
+            <li> 
+              <a href="../asg6/index.html">
+                Homework 6
+              </a>
+            </li>
+            <li> 
+              <a href="index.html">
+                Homework 7: Main
+              </a>
+            </li>
+            <li>
+              <a href="../contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <h2>Welcome to Rice Roll shop (demo)!</h2>
+      <form action="online.php" method="post">
+        Enter your name: <input type="text" id="name" name="name" class="smSpace"><br>
+        Enter your email: <input type="email" id="email" name="email" class="smSpace"><br>
+        Flavor: 
+        <select class="smSpace" required name="flavor">
+          <option value="Egg Pork Rice Roll(s)">Egg Pork Rice Roll $4</option>
+          <option value="Shrimp Rice Roll(s)">Shrimp Rice Roll $5</option>
+        </select><br>
+        Numbers of Rice Rolls: <input type="number" id="quant" name="quant" min=0 class="smSpace"><br>
+        <input type="submit">
+        <input type=reset>
+      </form>
+      <footer class="addSpace">
+        <section id="socialMedia">
+          <a href="https://www.facebook.com/haiqi.zeng/"><img src="../../personal/images/meta.svg"/></a>
+
+          <a href="https://www.instagram.com/zinc.helium.ph7/"><img src="../../personal/images/instagram.svg"/></a>
+
+          <a href="https://www.linkedin.com/in/haiqi-zeng-467976190/"><img src="../../personal/images/linkedin.svg"/></a>
+        </section>
+        <h4>© 2023 Haiqi Zeng</h4>
+      </footer>
+      <script src="asg5cart.js" ></script>
+  </body>
+</html>
