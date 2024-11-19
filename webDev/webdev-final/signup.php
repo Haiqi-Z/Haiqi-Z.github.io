@@ -7,7 +7,7 @@
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
     $tokens = 0; // Default token balance
 
-    $path = "/home/hz2330/databases";
+    $path = "/databases";
     $db = new SQLite3($path.'/webDevFinal.db');
 
     // Check if email is already registered
