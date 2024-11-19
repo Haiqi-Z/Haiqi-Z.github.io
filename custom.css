@@ -18,6 +18,17 @@ body{
   background-color: #3a8c87;
 }
 
+.list-group-item{
+  font-family: kalam;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.list-group-item:visited{
+  color: white;
+}
+
 nav ul{
   list-style: none;
   font-family: kalam;
