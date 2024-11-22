@@ -26,7 +26,7 @@ body{
 }
 
 .active{
-  color: white
+  color: white;
 }
 
 .list-group-item:visited{
