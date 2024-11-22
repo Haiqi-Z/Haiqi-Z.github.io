@@ -25,6 +25,10 @@ body{
   margin-left: 25%;
 }
 
+.list-group-item .active{
+  color: white
+}
+
 .list-group-item:visited{
   color: #3a8c87;
 }
