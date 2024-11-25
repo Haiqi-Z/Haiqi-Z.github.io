@@ -13,6 +13,11 @@
     src : url(../font/Pacifico-Regular.ttf);
 }
 
+@font-face {
+    font-family : DM;
+    src : url(../font/DM.ttf);
+}
+
 body{
     background-color : #DCEDEC; 
     padding : 200px;
@@ -106,7 +111,7 @@ nav ul a li{
 #mainArea section blockquote{
     padding-left : 30px;
     padding-right : 30px;
-    font-family : Mynerve-Regular;
+    font-family : DM;
 }
 
 #mainArea section blockquote{
